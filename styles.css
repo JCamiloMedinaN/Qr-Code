@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&family=Mouse+Memoirs&family=Ubuntu:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color:hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 33rem;
+    width: 22rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.qr-img{
+    margin-top: 1rem;
+    max-width:fit-content;
+}
+
+img{
+    max-width: 20rem;
+    border-radius: 1rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    margin: 0.1rem;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin: 0.1rem;
+}
